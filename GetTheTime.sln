@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GetTheTime", "GetTheTime\GetTheTime.vcxproj", "{23D928E4-62A8-4D30-82A8-76D995D4F38D}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Testtest", "Testtest\Testtest.vcxproj", "{D576A572-83FE-416E-9D64-A1F8B6967F3E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{195348D4-45BE-438A-AB53-85BC4C607538}"
+	ProjectSection(SolutionItems) = preProject
+		GetTheTime.vsmdi = GetTheTime.vsmdi
+		Local.testsettings = Local.testsettings
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = GetTheTime.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{23D928E4-62A8-4D30-82A8-76D995D4F38D}.Debug|Win32.ActiveCfg = Debug|Win32
+		{23D928E4-62A8-4D30-82A8-76D995D4F38D}.Debug|Win32.Build.0 = Debug|Win32
+		{23D928E4-62A8-4D30-82A8-76D995D4F38D}.Release|Win32.ActiveCfg = Release|Win32
+		{23D928E4-62A8-4D30-82A8-76D995D4F38D}.Release|Win32.Build.0 = Release|Win32
+		{D576A572-83FE-416E-9D64-A1F8B6967F3E}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D576A572-83FE-416E-9D64-A1F8B6967F3E}.Debug|Win32.Build.0 = Debug|Win32
+		{D576A572-83FE-416E-9D64-A1F8B6967F3E}.Release|Win32.ActiveCfg = Release|Win32
+		{D576A572-83FE-416E-9D64-A1F8B6967F3E}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="d9bc5ab5-3218-4383-8134-f96785cc24be" name="Administrator@8PDYMQCADPLRIDS 2016-04-15 21:16:10" runUser="8PDYMQCADPLRIDS\Administrator" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="本地" id="4cf17633-8e3d-4b18-9a26-425fdc424a1f">
+    <Description>这些设置为本地测试运行的默认测试设置。</Description>
+    <Deployment enabled="false" runDeploymentRoot="Administrator_8PDYMQCADPLRIDS 2016-04-15 21_16_10" />
+    <Execution>
+      <TestTypeSpecific>
+        <UnitTestRunConfig testTypeId="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b">
+          <AssemblyResolution>
+            <TestDirectory useLoadContext="true" />
+          </AssemblyResolution>
+        </UnitTestRunConfig>
+        <WebTestRunConfiguration testTypeId="4e7599fa-5ecb-43e9-a887-cd63cf72d207">
+          <Browser name="Chrome 2" MaxConnections="6">
+            <Headers>
+              <Header name="User-Agent" value="Mozilla/5.0 (Windows; U; Windows NT 5.1;) AppleWebKit/530.1 (KHTML, like Gecko) Chrome/2.0.169.1 Safari/530.1" />
+              <Header name="Accept" value="*/*" />
+              <Header name="Accept-Language" value="{{$IEAcceptLanguage}}" />
+              <Header name="Accept-Encoding" value="gzip,deflate" />
+              <Header name="Accept-Charset" value="ISO-8859-1,*,utf-8" />
+            </Headers>
+          </Browser>
+        </WebTestRunConfiguration>
+      </TestTypeSpecific>
+      <AgentRule name="LocalMachineDefaultRole">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2016-04-15T21:16:10.3412423+08:00" queuing="2016-04-15T21:16:10.3792445+08:00" start="2016-04-15T21:16:10.3872450+08:00" finish="2016-04-15T21:16:10.8462712+08:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TestMethod1" storage="e:\vs2010project\getthetime\debug\defaulttest.dll" id="0322e809-0fe1-7f98-6cd8-6f8a0a53df2c">
+      <Execution id="0bd82c89-f0f8-453f-bfb3-5a4c6d379eaa" />
+      <TestMethod codeBase="E:/vs2010project/GetTheTime/Debug/DefaultTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Testtest.fun_test, DefaultTest, Version=1.0.5949.38284, Culture=neutral, PublicKeyToken=null" name="TestMethod1" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="列表中未列出的结果" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="所有已加载的结果" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="0322e809-0fe1-7f98-6cd8-6f8a0a53df2c" executionId="0bd82c89-f0f8-453f-bfb3-5a4c6d379eaa" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="0bd82c89-f0f8-453f-bfb3-5a4c6d379eaa" testId="0322e809-0fe1-7f98-6cd8-6f8a0a53df2c" testName="TestMethod1" computerName="8PDYMQCADPLRIDS" duration="00:00:00.0797470" startTime="2016-04-15T21:16:10.3882450+08:00" endTime="2016-04-15T21:16:10.8202697+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0bd82c89-f0f8-453f-bfb3-5a4c6d379eaa">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual 失败。应为: &lt;False (System.Boolean)&gt;，实际为: &lt;1 (System.Int32)&gt;。</Message>
+          <StackTrace>   在 Testtest.fun_test.TestMethod1() 位置 e:\vs2010project\getthetime\testtest\fun_test.cpp:行号 63
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>
